@@ -1,0 +1,22 @@
+dual_sensors,features_used,n_samples,accuracy,f1_score
+barometer+magnetometer,"['Bx', 'By', 'Bz', 'p']",10348,0.9300347893312717,0.9257127300401558
+light meter+magnetometer,"['Bx', 'By', 'Bz', 'I', 'day_or_night_day', 'day_or_night_night']",10348,0.9238500193274063,0.9191778530009032
+magnetometer+accelerometer,"['ax', 'ay', 'az', 'Bx', 'By', 'Bz']",10348,0.9161190568225744,0.9116796611292116
+audio+magnetometer,"['Bx', 'By', 'Bz', 'rms']",10348,0.9087746424429841,0.9037872885479938
+magnetometer+gravity,"['gFx', 'gFy', 'gFz', 'Bx', 'By', 'Bz']",10348,0.9068419018167762,0.9023304544748884
+magnetometer+gyroscope,"['wx', 'wy', 'wz', 'Bx', 'By', 'Bz']",10348,0.9045226130653267,0.8998988475323544
+light meter+barometer,"['I', 'p', 'day_or_night_day', 'day_or_night_night']",10348,0.8782373405488983,0.8720245980122396
+barometer+accelerometer,"['ax', 'ay', 'az', 'p']",10348,0.8245071511403169,0.8211776563803677
+barometer+gravity,"['gFx', 'gFy', 'gFz', 'p']",10348,0.8210282180131426,0.817729988670715
+barometer+gyroscope,"['wx', 'wy', 'wz', 'p']",10348,0.8198685736374178,0.8162507621021826
+light meter+gyroscope,"['wx', 'wy', 'wz', 'I', 'day_or_night_day', 'day_or_night_night']",10348,0.8132972555083108,0.8101324218627133
+light meter+audio,"['I', 'rms', 'day_or_night_day', 'day_or_night_night']",10348,0.812137611132586,0.8072731698583369
+audio+gravity,"['gFx', 'gFy', 'gFz', 'rms']",10348,0.8009277155005798,0.7967245355448466
+light meter+gravity,"['gFx', 'gFy', 'gFz', 'I', 'day_or_night_day', 'day_or_night_night']",10348,0.8001546192500967,0.7969299270469747
+barometer+audio,"['p', 'rms']",10348,0.7978353304986471,0.7928837797197397
+light meter+accelerometer,"['ax', 'ay', 'az', 'I', 'day_or_night_day', 'day_or_night_night']",10348,0.7966756861229223,0.7941777042610398
+gyroscope+gravity,"['wx', 'wy', 'wz', 'gFx', 'gFy', 'gFz']",10348,0.7955160417471975,0.7928035218418663
+audio+gyroscope,"['wx', 'wy', 'wz', 'rms']",10348,0.7854657904909161,0.7823403702799179
+accelerometer+gravity,"['ax', 'ay', 'az', 'gFx', 'gFy', 'gFz']",10348,0.7734827986084267,0.7714328016519755
+gyroscope+accelerometer,"['ax', 'ay', 'az', 'wx', 'wy', 'wz']",10348,0.7715500579822188,0.7695668208849205
+audio+accelerometer,"['ax', 'ay', 'az', 'rms']",10348,0.7707769617317356,0.7677777604538085
